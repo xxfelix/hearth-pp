@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>禾宿 - 隐私政策</title>
+  <style>
+    :root { color-scheme: light; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC",
+        "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      line-height: 1.7;
+      color: #1f2937;
+      background: #f8fafc;
+    }
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 24px 18px 48px;
+      background: #fff;
+    }
+    h1 { font-size: 28px; margin: 0 0 8px; }
+    h2 { font-size: 20px; margin: 28px 0 8px; }
+    p, li { font-size: 16px; }
+    .meta { color: #6b7280; margin-bottom: 18px; }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <h1>隐私政策</h1>
+    <p class="meta">更新日期：2026-04-28<br />生效日期：2026-04-28</p>
+    <p>本应用《禾宿》（以下简称“本应用”）由个人开发者提供。你在使用本应用前，请仔细阅读本政策。</p>
+
+    <h2>一、我们处理的信息类型</h2>
+    <ul>
+      <li>饮食记录信息：你主动录入的食物、克重、餐次、日期。</li>
+      <li>本地偏好信息：收藏食物、页面使用状态。</li>
+      <li>操作日志信息：用于定位导入导出等问题的应用操作日志。</li>
+      <li>导出文件信息：当你主动导出时，应用会生成 CSV 文件并调用系统分享能力。</li>
+    </ul>
+
+    <h2>二、信息处理目的</h2>
+    <ul>
+      <li>提供饮食记录、历史统计、建议计算等核心功能。</li>
+      <li>支持你进行本地备份、导入恢复和问题排查。</li>
+      <li>提升应用稳定性与可用性。</li>
+    </ul>
+
+    <h2>三、处理方式与范围</h2>
+    <ul>
+      <li>上述数据默认保存在你的设备本地（SharedPreferences/本地文件临时目录）。</li>
+      <li>本应用不主动将你的个人信息上传至开发者服务器。</li>
+      <li>仅当你主动点击“导出并分享”时，数据才会经系统分享面板发送至你选择的第三方应用。</li>
+    </ul>
+
+    <h2>四、第三方 SDK 与服务</h2>
+    <ul>
+      <li><code>shared_preferences</code>：本地键值存储。</li>
+      <li><code>share_plus</code>：调用系统分享能力。</li>
+      <li><code>file_selector</code>：调用系统文件选择器用于导入。</li>
+      <li><code>fl_chart</code>：本地图表展示。</li>
+    </ul>
+    <p>本应用未集成广告、推送、统计归因、社交登录、支付类 SDK（以当前版本代码为准）。</p>
+
+    <h2>五、权限与设备能力</h2>
+    <ul>
+      <li>网络访问（开发/运行环境基础能力）。</li>
+      <li>文件选择与读取（你主动导入备份时触发）。</li>
+      <li>系统分享（你主动导出时触发）。</li>
+      <li>剪贴板写入（你主动点击复制明细时触发）。</li>
+    </ul>
+
+    <h2>六、你的权利</h2>
+    <ul>
+      <li>你可在应用“合规”页面查看协议版本和链接。</li>
+      <li>你可在应用内执行“清空本地数据”，删除饮食记录、收藏与日志（不可恢复）。</li>
+      <li>你可停止使用本应用来终止后续信息处理。</li>
+    </ul>
+
+    <h2>七、未成年人保护</h2>
+    <p>若你为未成年人，请在监护人指导下阅读并使用本应用。</p>
+
+    <h2>八、政策更新</h2>
+    <p>我们可能根据功能与法规变化更新本政策。更新后将通过应用内版本信息进行提示。</p>
+
+    <h2>九、联系我们</h2>
+    <p>如需反馈隐私相关问题，请通过应用市场开发者联系方式联系。</p>
+    <hr />
+  </main>
+</body>
+</html>
